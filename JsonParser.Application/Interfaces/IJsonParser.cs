@@ -8,5 +8,6 @@ namespace JsonParser.Application.Interfaces
 {
     public interface IJsonParser
     {
+        string ConvertToStringFromJson(string data);
     }
 }
